@@ -1,0 +1,263 @@
+{
+  "site_name": "StavPro Bratislava",
+  "site_url": "#",
+  "schema_version": "1.0",
+  "theme": {
+    "primary": "#c8702a",
+    "secondary": "#1c1c1e",
+    "accent": "#d4922a",
+    "dark": "#111113",
+    "light": "#f7f5f2",
+    "text": "#2a2a2a",
+    "text_light": "#7a7a7a"
+  },
+  "fonts": {
+    "heading": "Archivo",
+    "body": "DM Sans"
+  },
+  "sections": [
+    {
+      "type": "navigation",
+      "id": "nav_1",
+      "label": "Navigácia",
+      "order": 0,
+      "fields": {
+        "logo_text": "StavPro",
+        "links": [
+          { "id": "link_1", "label": "Domov", "url": "#hero_1" },
+          { "id": "link_2", "label": "O nás", "url": "#about_1" },
+          { "id": "link_3", "label": "Služby", "url": "#services_1" },
+          { "id": "link_4", "label": "Prečo my", "url": "#features_1" },
+          { "id": "link_5", "label": "Referencie", "url": "#testimonials_1" },
+          { "id": "link_6", "label": "Kontakt", "url": "#contact_1" }
+        ],
+        "cta_text": "Zavolajte nám",
+        "cta_url": "tel:+421917955469"
+      }
+    },
+    {
+      "type": "hero",
+      "id": "hero_1",
+      "label": "Hlavný banner",
+      "order": 1,
+      "page": "home",
+      "fields": {
+        "headline": "Postavíme vám dom na ktorý budete hrdí",
+        "subheadline": "Overená stavebná firma s viac ako 20-ročnými skúsenosťami. Vlastná technika, odborný tím a priateľné ceny. Bratislava, Senec a okolie.",
+        "cta_text": "Bezplatná konzultácia",
+        "cta_url": "tel:+421917955469",
+        "cta_secondary_text": "Naše služby",
+        "cta_secondary_url": "#services_1",
+        "background_image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80",
+        "badge_text": "20+ rokov skúseností"
+      }
+    },
+    {
+      "type": "about",
+      "id": "about_1",
+      "label": "O nás",
+      "order": 2,
+      "page": "home",
+      "fields": {
+        "label": "O našej firme",
+        "headline": "Odborníci, nie fušeri",
+        "text": "Sme overená stavebná firma s vlastnou stavebnou technikou a vynikajúcim majstrovským tímom, ktorý si potrpí obzvlášť na kvalitne a odborne vyhotovenej práci. Kompletné konzultácie priamo s vyškoleným konateľom firmy, ktorého odbornosť a skúsenosti určite neoľutujete.",
+        "text_2": "Na základe projektu a osobnej konzultácie vám dom naceníme, poradíme vybrať kvalitné materiály a nastavíme aj časový harmonogram. Rezervujte si voľné termíny na tento rok.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+        "stats": [
+          { "id": "stat_1", "value": "20", "suffix": "+", "label": "Rokov skúseností" },
+          { "id": "stat_2", "value": "350", "suffix": "+", "label": "Dokončených projektov" },
+          { "id": "stat_3", "value": "100", "suffix": "%", "label": "Vlastná technika" }
+        ]
+      }
+    },
+    {
+      "type": "services_list",
+      "id": "services_1",
+      "label": "Služby",
+      "order": 3,
+      "page": "home",
+      "fields": {
+        "label": "Naše služby",
+        "headline": "Kompletné stavebné práce",
+        "subheadline": "Od základov po strechu — všetko pod jednou strechou, odborne a spoľahlivo.",
+        "items": [
+          {
+            "id": "svc_1",
+            "number": "01",
+            "title": "Výstavba rodinných domov",
+            "description": "Kompletná výstavba rodinných domov na kľúč podľa vášho projektu. Od základovej dosky až po kolaudáciu sa o všetko postaráme s maximálnou precíznosťou a dodržaním harmonogramu.",
+            "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+            "icon": "home"
+          },
+          {
+            "id": "svc_2",
+            "number": "02",
+            "title": "Rekonštrukcie a prestavby",
+            "description": "Modernizácia starších budov, nadstavby, prístavby a kompletné rekonštrukcie interiérov aj exteriérov. Premení váš starý dom na moderné bývanie.",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+            "icon": "hammer"
+          },
+          {
+            "id": "svc_3",
+            "number": "03",
+            "title": "Murárske a betónové práce",
+            "description": "Profesionálne murárske práce, betonáž základov, stropov a konštrukcií. Pracujeme s overenými materiálmi a dodržiavame všetky normy.",
+            "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+            "icon": "layers"
+          },
+          {
+            "id": "svc_4",
+            "number": "04",
+            "title": "Zatepľovanie a fasády",
+            "description": "Zateplenie budov kontaktným zatepľovacím systémom, fasádne omietky a obklady. Znížte náklady na vykurovanie a zlepšite vzhľad vašej nehnuteľnosti.",
+            "image": "https://images.unsplash.com/photo-1607400201515-c2c41c07d307?w=800&q=80",
+            "icon": "shield"
+          },
+          {
+            "id": "svc_5",
+            "number": "05",
+            "title": "Zemné a výkopové práce",
+            "description": "Výkopy základov, terénne úpravy, príprava staveniska. Disponujeme vlastnou stavebnou technikou pre rýchle a efektívne zemné práce.",
+            "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&q=80",
+            "icon": "truck"
+          },
+          {
+            "id": "svc_6",
+            "number": "06",
+            "title": "Konzultácie a poradenstvo",
+            "description": "Odborné poradenstvo pri výbere materiálov, nacenenie projektov a zostavenie časového harmonogramu. Konzultácia priamo s konateľom firmy.",
+            "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "icon": "clipboard"
+          }
+        ]
+      }
+    },
+    {
+      "type": "features",
+      "id": "features_1",
+      "label": "Prečo my",
+      "order": 4,
+      "page": "home",
+      "fields": {
+        "label": "Prečo si vybrať nás",
+        "headline": "Staviate s istotou",
+        "subheadline": "Vieme, že stavba domu je jedna z najväčších investícií v živote. Preto pristupujeme ku každému projektu zodpovedne.",
+        "items": [
+          { "id": "feat_1", "title": "Vlastná technika", "description": "Disponujeme kompletným strojovým parkom — nie sme závislí na subdodávateľoch.", "icon": "cog" },
+          { "id": "feat_2", "title": "20+ rokov praxe", "description": "Overená odbornosť a stovky úspešne dokončených projektov v Bratislave a okolí.", "icon": "award" },
+          { "id": "feat_3", "title": "Kvalitné materiály", "description": "Pracujeme len s overenými materiálmi a poradíme vám s výberom tých najlepších.", "icon": "check-circle" },
+          { "id": "feat_4", "title": "Férové ceny", "description": "Transparentné nacenenie bez skrytých poplatkov. Priateľné ceny pri profesionálnej kvalite.", "icon": "credit-card" },
+          { "id": "feat_5", "title": "Dodržiavame termíny", "description": "Časový harmonogram nastavíme vopred a dodržíme ho. Žiadne nekonečné stavby.", "icon": "clock" },
+          { "id": "feat_6", "title": "Osobný prístup", "description": "Konzultácie priamo s konateľom firmy. Jeden kontakt, žiadne straty v komunikácii.", "icon": "users" }
+        ]
+      }
+    },
+    {
+      "type": "cta_banner",
+      "id": "cta_1",
+      "label": "Výzva na akciu",
+      "order": 5,
+      "page": "home",
+      "fields": {
+        "headline": "Rezervujte si voľný termín na tento rok",
+        "text": "Naše kapacity sa napĺňajú. Kontaktujte nás ešte dnes a zaistite si termín pre vašu stavbu.",
+        "cta_text": "Zavolajte: 0917 955 469",
+        "cta_url": "tel:+421917955469",
+        "background_image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80"
+      }
+    },
+    {
+      "type": "testimonials",
+      "id": "testimonials_1",
+      "label": "Referencie",
+      "order": 6,
+      "page": "home",
+      "fields": {
+        "label": "Referencie",
+        "headline": "Čo hovoria naši klienti",
+        "items": [
+          {
+            "id": "test_1",
+            "name": "Martin K.",
+            "text": "Profesionálny prístup od začiatku do konca. Dom bol hotový v dohodnutom termíne a kvalita práce predčila naše očakávania. Jednoznačne odporúčam.",
+            "role": "Výstavba RD",
+            "rating": 5
+          },
+          {
+            "id": "test_2",
+            "name": "Jana M.",
+            "text": "Konečne sme našli firmu, ktorá drží slovo. Rekonštrukcia nášho bytu prebehla hladko, čisto a za dohodnutú cenu. Ďakujeme!",
+            "role": "Rekonštrukcia bytu",
+            "rating": 5
+          },
+          {
+            "id": "test_3",
+            "name": "Peter S.",
+            "text": "Oceňujem osobný prístup konateľa a odborné rady pri výbere materiálov. Zateplenie domu bolo vykonané precízne a výsledky na vykurovaní sú okamžite viditeľné.",
+            "role": "Zateplenie RD",
+            "rating": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "process",
+      "id": "process_1",
+      "label": "Ako spolupracujeme",
+      "order": 7,
+      "page": "home",
+      "fields": {
+        "label": "Postup spolupráce",
+        "headline": "Ako to u nás funguje",
+        "items": [
+          { "id": "step_1", "step": "01", "title": "Konzultácia", "description": "Osobné stretnutie a prebratie vášho projektu. Poradíme, navrhneme a naceníme.", "icon": "message-circle" },
+          { "id": "step_2", "step": "02", "title": "Nacenenie a zmluva", "description": "Transparentná cenová ponuka s presným harmonogramom. Jasné podmienky bez skrytých nákladov.", "icon": "file-text" },
+          { "id": "step_3", "step": "03", "title": "Realizácia", "description": "Profesionálna realizácia s pravidelnou komunikáciou o postupe prác.", "icon": "hard-hat" },
+          { "id": "step_4", "step": "04", "title": "Odovzdanie", "description": "Dôkladná kontrola kvality a odovzdanie hotového diela v dohodnutom termíne.", "icon": "check-square" }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact_1",
+      "label": "Kontakt",
+      "order": 8,
+      "page": "home",
+      "fields": {
+        "label": "Kontaktujte nás",
+        "headline": "Dohodnite si bezplatnú konzultáciu",
+        "text": "Zavolajte nám alebo napíšte — radi vám poradíme a naceníme váš projekt.",
+        "phone": "0917 955 469",
+        "phone_url": "tel:+421917955469",
+        "email": "info@stavpro.sk",
+        "address": "Bratislava a okolie (Senec)",
+        "working_hours": "Po - Pi: 7:00 - 17:00, So: podľa dohody",
+        "form_name_placeholder": "Vaše meno",
+        "form_email_placeholder": "Váš email",
+        "form_phone_placeholder": "Telefónne číslo",
+        "form_message_placeholder": "Opíšte váš projekt alebo otázku...",
+        "form_submit_text": "Odoslať správu"
+      }
+    },
+    {
+      "type": "footer",
+      "id": "footer_1",
+      "label": "Pätička",
+      "order": 9,
+      "fields": {
+        "logo_text": "StavPro",
+        "description": "Overená stavebná firma s 20+ ročnými skúsenosťami. Bratislava, Senec a okolie.",
+        "copyright_text": "2024 StavPro Bratislava. Všetky práva vyhradené.",
+        "links": [
+          { "id": "flink_1", "label": "Domov", "url": "#hero_1" },
+          { "id": "flink_2", "label": "Služby", "url": "#services_1" },
+          { "id": "flink_3", "label": "Kontakt", "url": "#contact_1" }
+        ],
+        "phone": "0917 955 469",
+        "email": "info@stavpro.sk",
+        "address": "Bratislava a okolie"
+      }
+    }
+  ]
+}
